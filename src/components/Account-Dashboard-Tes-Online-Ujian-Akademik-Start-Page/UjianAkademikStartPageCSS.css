@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.account-dashboard-start-page {
+    background: #E5E5E5;
+    position:fixed;
+    overflow-y:auto;
+    overflow-x:hidden;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+/* NAVBAR */
+
+.account-dashboard-start-page .logo-loyola {
+    width: 72px;
+    height: 72px;
+    margin-left: 73px;
+}
+
+.account-dashboard-start-page .navbar-greeting {
+    color: #072A6F;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 30px;
+}
+
+.account-dashboard-start-page .bantuan-button {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #072A6F;
+}
+
+.account-dashboard-start-page .logout-button {
+    color: #EB5757;
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: right; 
+    margin-right: 170px;
+}
+
+/* BODY */
+
+.account-dashboard-start-page .main-body{
+    max-width: 1980px;
+    margin: auto;
+}
+
+.account-dashboard-start-page content-1 {
+    width: 736px;
+    height: 536px;
+}
+
+.account-dashboard-start-page atas {
+    margin-left: 208px;
+}
+
+.account-dashboard-start-page h1 {
+    color: #072A6F;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 40px;
+    margin-left: 208px;
+}
+
+.account-dashboard-start-page content-1 h2 {
+    color: black;
+    font-family: Mukta;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.account-dashboard-start-page .content-2 h2 {
+    color: black;
+    font-family: Mukta;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: Left;
+}
+
+.account-dashboard-start-page .card {
+    margin-top: 15px;
+    border-radius: 16px;
+    height: 536px;
+    width: 736px;
+}
+
+.account-dashboard-start-page .button-pelajaran {
+    background-color: transparent;
+    color: #072A6F;
+    border-width: 1px;
+    border-color: #072A6F;
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-style: solid;
+    margin-left: 25%;
+    margin-top: 27px;
+    width: 357px;
+    height: 55px;
+    border-radius: 26px;
+}
+
+.account-dashboard-start-page .content-2 ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0.4em;          /* Adjust this value so that it appears where you want. */
+    font-size: 2.5em;
+    color: #072A6F;
+}
+
+.account-dashboard-start-page .button-pelajaran:hover {
+    background-color: #072A6F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.account-dashboard-start-page .content-2 ul {
+    list-style: none; /* Remove default bullets */
+}
+
+.account-dashboard-start-page .content-2 ul li {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.account-dashboard-start-page .content-2 .ket-ujian {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-top: 197px;
+    margin-left: 40px;
+}
+
+.account-dashboard-start-page .content-2 .cooldown {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 40px;
+    color: #072A6F;
+    float: left;
+}
+
+.account-dashboard-start-page .mulai-ujian {
+    border: none;
+    padding: 8px 48px;
+    float: right;
+    margin-right: 50px;
+}

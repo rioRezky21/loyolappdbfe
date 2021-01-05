@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap');
+
+.account-dashboard-tes-online-tidak-lolos {
+    background-color: #F5F6FA;;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+/* CONTAINER */
+.account-dashboard-tes-online-tidak-lolos .container-tes-online-tidak-lolos {
+    max-width: 1504px;
+    font-family: 'Mukta', sans-serif;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: "header header"
+        "main main"
+        "tahap tahap";
+}
+
+/* START OF HEADER & NAVBAR */
+.account-dashboard-tes-online-tidak-lolos .page-navbar {
+    margin: 0;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.account-dashboard-tes-online-tidak-lolos .greet {
+    color: #072A6F;
+    width: 183px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 0;
+    margin-bottom: 32px;
+}
+
+.account-dashboard-tes-online-tidak-lolos ul {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.account-dashboard-tes-online-tidak-lolos .header-logo {
+    position: absolute;
+    margin-left: -136px;
+    margin-top: -10px;
+}
+
+.account-dashboard-tes-online-tidak-lolos a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 48px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .logout { order: 1;}
+.account-dashboard-tes-online-tidak-lolos .logout a {
+    color: #EB5757;
+    width: 74px;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .logout a:hover {
+    color: #ac3e3e;
+}
+
+.account-dashboard-tes-online-tidak-lolos .bantuan { order: 2 }
+.account-dashboard-tes-online-tidak-lolos .bantuan a {
+    color: #072A6F;
+    width: 74px;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .bantuan a:hover {
+    color: #134ab9;
+}
+
+.account-dashboard-tes-online-tidak-lolos .container-tes-online-tidak-lolos li {
+    list-style-type: none;
+}
+/* END OF HEADER & NAVBAR */
+
+/* MAIN */
+.account-dashboard-tes-online-tidak-lolos .container-tes-online-tidak-lolos main {
+    grid-area: main;
+}
+
+.account-dashboard-tes-online-tidak-lolos .content-header{
+    margin: 0;
+    display: flex;
+    grid-area: main;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.account-dashboard-tes-online-tidak-lolos .content-header p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .content-header a {
+    text-decoration: none;
+    color: #072A6F;
+}
+
+.account-dashboard-tes-online-tidak-lolos .content-header a:hover {
+    color: #134ab9;
+}
+
+.account-dashboard-tes-online-tidak-lolos .tes-online-header {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80px;
+    color: #072A6F;
+}
+
+.account-dashboard-tes-online-tidak-lolos .tahap-awal-header {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .section-content-1 {
+    display: flex;
+    align-items: baseline;
+}
+
+.account-dashboard-tes-online-tidak-lolos .tahap-awal {
+    width: 736px;
+    padding: 40px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin-right: 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-left: -5px;
+}
+
+/* CONTENT PEMBAYARAN */
+.account-dashboard-tes-online-tidak-lolos .section-content-pembayaran {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.account-dashboard-tes-online-tidak-lolos .bayar-main-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+.account-dashboard-tes-online-tidak-lolos .bayar-sub-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #219653;
+}
+
+.account-dashboard-tes-online-tidak-lolos .bullet-pointer {
+    border-radius: 50%;
+    background-color: #072A6F;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    margin-right: 10px;
+}
+
+/* CONTENT PENGISIAN */
+.account-dashboard-tes-online-tidak-lolos .section-content-pengisian {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .section-content-2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.account-dashboard-tes-online-tidak-lolos .isi-main-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+/* BUTTON STYLE */
+.account-dashboard-tes-online-tidak-lolos .button-tes-online-lunas {
+    width: 150px;
+    height: 46px;
+    background-color: #BDBDBD;
+    border-color: #BDBDBD;
+    color: #4F4F4F;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .button-tes-online-edit {
+    width: 205px;
+    height: 46px;
+    background-color: #BDBDBD;
+    border-color: #BDBDBD;
+    color: #4F4F4F;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* JADWAL STYLE */
+.account-dashboard-tes-online-tidak-lolos .content-jadwal-tes {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    color: #072A6F;
+}
+
+/* JADWAL BULLET */
+.account-dashboard-tes-online-tidak-lolos .jadwal-bullet-pointer {
+    border-radius: 50%;
+    background-color: #072A6F;
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    margin-right: 10px;
+}
+
+/* FLEX MATPEL */
+.account-dashboard-tes-online-tidak-lolos .mapel-bindo {
+    display: flex;
+    align-items: baseline;
+}
+.account-dashboard-tes-online-tidak-lolos .mapel-bing {
+    display: flex;
+    align-items: baseline;
+}
+.account-dashboard-tes-online-tidak-lolos .mapel-mtk {
+    display: flex;
+    align-items: baseline;
+}
+.account-dashboard-tes-online-tidak-lolos .mapel-ips {
+    display: flex;
+    align-items: baseline;
+}
+.account-dashboard-tes-online-tidak-lolos .mapel-ipa {
+    display: flex;
+    align-items: baseline;
+}
+
+/* STATUS STYLE */
+.account-dashboard-tes-online-tidak-lolos .status-tes-online {
+    color: #EB5757;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .status-text {
+    color: #EB5757;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* TAHAP DUA STYLE */
+.account-dashboard-tes-online-tidak-lolos .tahap-kedua {
+    padding: 40px;
+    background-color: #FFFFFF;
+    width: 736px;
+    height: 536px;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .tahap-kedua a {
+    padding: 0;
+}
+
+.account-dashboard-tes-online-tidak-lolos .tahap-dua-header {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .tahap-kedua .detail-tahap-dua {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #072A6F;
+}
+
+.account-dashboard-tes-online-tidak-lolos .ujian-akademik-text {
+    display: flex;
+    align-items: baseline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    margin-right: 300px;
+}
+
+.account-dashboard-tes-online-tidak-lolos .pilihan-ujian-akademik {
+    display: flex;
+    align-items: baseline;
+}
+
+.account-dashboard-tes-online-tidak-lolos .button-mulai-ujian-akademik {
+    width: 140px;
+    height: 46px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #FFE600;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    border-color: #FFE600;
+}
+
+/* MAIN CONTENT DISPLAY STYLE */
+.account-dashboard-tes-online-tidak-lolos .tes-online-main-content {
+    display: flex;    
+}

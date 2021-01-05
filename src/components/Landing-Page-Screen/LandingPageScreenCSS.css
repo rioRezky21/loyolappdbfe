@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.landing-page .container-landing {
+  width: 50%;
+  float: left;
+  color: #F2F2F2;
+}
+
+.landing-page .main-body-landing {
+  max-width: 1980px;
+  margin: auto;
+}
+
+.landing-page .header-logo-landing {
+  width: 72px;
+  height: 72px;
+}
+
+.landing-page {
+  background-color: #191D3D;
+  position:fixed;
+  overflow-y:auto;
+  overflow-x:hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page .content-landing {
+  margin-left: 208px;
+  margin-top: 160px;
+}
+
+.landing-page .daftar-landing {
+  margin-top: 20px
+}
+
+.landing-page .ingin-mendaftar {
+  font-family: Mukta;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.content-landing .h2-landing {
+  font-family: Asul;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.landing-page .login-box {
+  font-family: Mukta;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  margin-top: 32px;
+}
+
+.content-landing .h1-landing {
+  font-family: Mukta;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.landing-page .box-form-landing {
+  width: 50%;
+  height: 449px;
+  margin-top: 240px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 4px solid #032464;
+  box-sizing: border-box;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.landing-page .btn-sign-up-landing {
+  background-color: #FFE600;
+  padding: 8px 56px;
+  color: #072A6F;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Mukta;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.btn-sign-up-landing:hover {
+  opacity: 0.7;
+}
+
+.landing-page .label-landing {
+  position: relative;
+}
+
+.landing-page .forget-password-landing {
+  font-family: Mukta;
+  margin-left: 250px;
+  color: white;
+}
+
+.landing-page .input-landing {
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 12px 48px;
+  width: 384px;
+  height: 48px;
+}
+
+.landing-page .email-landing:before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("../../assets/images/EmailLogin.svg") center / contain no-repeat;
+}
+
+.landing-page .password-landing:after {
+  content: "";
+  position: absolute;
+  left: 60px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("../../assets/images/PasswordLogin.svg") center / contain no-repeat;
+}
+
+/* Untuk Tablet 
+@media (max-width: 1400px) {
+  .landing-page .container-landing {
+    width: 100%
+  }
+
+  .landing-page .content-landing {
+    margin-left: 100px;
+    margin-top: 120px;
+  }
+
+  .content-landing .h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  .content-landing .h1 {
+    font-size: 50px;
+    line-height: 100px;
+  }
+
+  .landing-page .ingin-mendaftar {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .landing-page .box-form-landing {
+    width: 75%;
+    height: 449px;
+    margin-top: 140px;
+  
+    border: 4px solid #032464;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .landing-page .btn-sign-up-landing {
+    padding: 6px 48px;
+    margin-top: 20px;
+  }
+}
+
+/* Untuk Smartphone 
+@media (max-width: 670px) {
+  .landing-page .container-landing {
+    width: 100%
+  }
+
+  .landing-page .content-landing {
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+
+  .content-landing .h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  
+  .content-landing .h1 {
+    font-size: 30px;
+    line-height: 80px;
+  }
+}*/

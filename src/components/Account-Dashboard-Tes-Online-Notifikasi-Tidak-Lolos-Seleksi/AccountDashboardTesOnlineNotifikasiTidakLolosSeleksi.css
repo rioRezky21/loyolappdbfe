@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi {
+    background: #F5F6FA;
+    height: 100vh;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .containerNotifikasiTidakLolosSeleksi {
+    max-width: 1920px;
+    height: 1080px;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .containerNotifikasiTidakLolosSeleksi .topbarNotifikasiTidakLolosSeleksi {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .containerNotifikasiTidakLolosSeleksi .topbarNotifikasiTidakLolosSeleksi .imageNotifikasiTidakLolosSeleksi {
+    width: 72px;
+    height: 72px;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .containerNotifikasiTidakLolosSeleksi .topbarNotifikasiTidakLolosSeleksi .helloNotifikasiTidakLolosSeleksi {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+
+    color: #072A6F;
+    
+    font-family: Mukta;
+    font-size: 36px;
+    font-weight: bold;
+
+    margin-left: 88px;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .containerNotifikasiTidakLolosSeleksi .topbarNotifikasiTidakLolosSeleksi .bantuanNotifikasiTidakLolosSeleksi {
+    position: absolute;
+
+    width: 183px;
+    height: 60px;
+
+    color: #072A6F;
+    
+    font-family: Mukta;
+    font-size: 28px;
+    font-weight: bold;
+
+    margin: auto;
+
+    margin-top: 8px;
+    margin-left: 1200px;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .containerNotifikasiTidakLolosSeleksi .topbarNotifikasiTidakLolosSeleksi .logoutNotifikasiTidakLolosSeleksi {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+
+    color: #EB5757;
+    
+    font-family: Mukta;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-align: right;
+
+    margin-top: 8px;
+    margin-left: 1300px;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .headerNotifikasiTidakLolosSeleksi .jalurTesOnlineNotifikasiTidakLolosSeleksi {
+    position: absolute;
+    
+    width: 325px;
+    height: 80px;
+    margin-left: 245px;
+    margin-top: 160px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 80px;
+
+    color: #072A6F;
+}
+
+.AccountDashboardTesOnlineNotifikasiTidakLolosSeleksi .textNotifikasiTidakLolosSeleksi .isiNotifikasiTidakLolosSeleksi {
+    position: absolute;
+    width: 864px;
+    height: 180px;
+    margin-left: 245px;
+    margin-top: 280px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+
+    color: black; 
+}

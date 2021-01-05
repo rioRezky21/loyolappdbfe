@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap');
+
+h1.head-content-lihat-foto {
+    font-family: 'Mukta';
+    color: #072A6F;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+.content-lihat-foto {
+    text-align: center;
+}
+
+img.lihat-foto {
+    margin-top: 10px;
+    width: 350px;
+}
+
+.content-lihat-foto .lihat-foto-tutup {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    border-style: none;
+    margin-top: 9%;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 8px;
+    background-color: #FFE600;
+    color: #072A6F;
+}

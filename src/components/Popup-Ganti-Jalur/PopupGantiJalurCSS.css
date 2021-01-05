@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+/* .PopupModal{
+    overflow-x: scroll;
+} */
+h1.popupGantiJalurQuestion{
+    position: absolute;
+    width: 442px;
+    height: 0px;
+    left: 49px;
+    top: 20px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #072A6F;
+}
+text.popupGantiJalurWarning{
+    position: absolute;
+    width: 406px;
+    height: 0px;
+    left: 64px;
+    top: 65px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+text.popupGantiJalurAggrement{
+    position: static;
+    width: 109px;
+    height: 30px;
+    left: 56px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+text.popupGantiJalurBatal{
+    position: static;
+    width: 41px;
+    height: 30px;
+    left: 56px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.link-ganti-jalur{
+    text-decoration: none;
+}
+
+button.popupGantiJalurgantiJalurButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 56px;
+    position: static;
+    width: 221px;
+    height: 46px;
+    left: 0px;
+    bottom: 0px;
+    background: #EB5757;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 110px 64px;
+    border: none;
+
+}
+button.popupGantiJalurBatalButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 56px;
+    position: static;
+    width: 153px;
+    height: 46px;
+    left: 0px;
+    bottom: 0px;
+    background: #27AE60;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -156px 290px;
+    border: none;
+}
+.popupGantiJalurButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 36px;
+    position: absolute;
+    width: 165px;
+    height: 46px;
+    left: 5px;
+    bottom: 820px;
+    background: #FFE600;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.popupGantiJalurButtonText{
+    position: static;
+    width: 90px;
+    height: 30px;
+    left: 0px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #072A6F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}

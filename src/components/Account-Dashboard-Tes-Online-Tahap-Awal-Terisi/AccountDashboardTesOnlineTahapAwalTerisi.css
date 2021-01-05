@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.style {
+font-family : Mukta;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi {
+    background:#F5F6FA;
+    margin: auto;
+    height: 100vh;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .container-tahap-awal-terisi {
+    margin: auto;
+    max-width: 1980px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .topbar {
+    position: absolute;
+    width: 1640px;
+    height: 69px;
+    left: 72px;
+    top: 45px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .logo {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 0px;
+    top: calc(50% - 72px/2 + 0.5px);
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #halo {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+    left: 136px;
+    top: calc(50% - 60px/2 + 0.5px);
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    
+    color: #072A6F;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .bantuan {
+    position: absolute;
+    width: 88px;
+    height: 40px;
+    right: 122px;
+    top: calc(50% - 40px/2 + 0.5px);
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    text-align: right;
+    color: #072A6F
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .logout {
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    right: 0px;
+    top: calc(50% - 40px/2 + 0.5px);
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    text-align: right;
+
+    color: #EB5757;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-jalur-tes-online {
+    position: absolute;
+    width: 344px;
+    height: 80px;
+    left: 212px;
+    top: 140px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80px;
+    
+    color: #072A6F;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .ganti-jalur {
+    position: absolute;
+    height: 30px;
+    left: 1600px;
+    top: 160px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-decoration-line: underline;
+
+    color: #072A6F;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .tahap-awal {
+    position: absolute;
+    width: 736px;
+    height: 715px;
+    left: 208px;
+    top: 220px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-tahap-awal {
+    position: absolute;
+    width: 181px;
+    height: 60px;
+    left: 40px;
+    top: 24px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    
+    color: #222222;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .isian {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 664px;
+    height: 143px;
+    left: 40px;
+    top: 100px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .biaya-pendaftaran {
+    position: static;
+    width: 664px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .correct1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 14px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    width: 16px;
+    height: 16px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #hidden-correct {
+    position: absolute;
+    visibility: hidden;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #27AE60;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-bayar-biaya-daftar {
+    position: absolute;
+    width: 329px;
+    height: 40px;
+    left: 32px;
+    top: 3px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+   
+    color: #222222;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #status-bayar {
+    position: absolute;
+    width: 206px;
+    height: 30px;
+    left: 32px;
+    top: 43px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #219653;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .lunas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 48px;
+
+    position: absolute;
+    width: 150px;
+    height: 46px;
+    right: 0px;
+    top : 10px;
+    /* top: calc(50% - 46px/2 + 0.5px); */
+
+    background: #BDBDBD;
+    border-radius: 8px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-lunas {
+    position: static;
+    width: 54px;
+    height: 30px;
+    left: 48px;
+    top: 8px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #4F4F4F;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .biodata {
+    position: static;
+    width: 664px;
+    height: 46px;
+    left: 0px;
+    top: 97px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top : 110px;
+    /* top: 15px; */
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #isi-data-diri {
+    position: absolute;
+    width: 308px;
+    height: 40px;
+    left: 32px;
+    top: 100px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #222222;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .edit-biodata {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    padding: 8px 48px;
+
+    position: absolute;
+    height: 46px;
+    right: 0px;
+    bottom: 0px;
+
+    background: #FFE600;
+    border-color: #FFE600;
+    border-radius: 8px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #072A6F;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .jadwal-tes {
+    position: absolute;
+    width: 647.11px;
+    height: 276px;
+    left: -35px;
+    top: -100px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 40px;
+    top: 356.17px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #bindo {
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    left: 72px;
+    top: 341.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #time-bindo {
+    position: absolute;
+    width: 104px;
+    height: 40px;
+    left: 347.55px;
+    top: 341.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #date-bindo {
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 490.11px;
+    top: 341.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 40px;
+    top: 415.17px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #math {
+    position: absolute;
+    width: 122px;
+    height: 40px;
+    left: 72px;
+    top: 400.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #time-math {
+    position: absolute;
+    width: 96px;
+    height: 40px;
+    left: 353.05px;
+    top: 400.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #date-math {
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 490.11px;
+    top: 400.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse5 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 40px;
+    top: 474.17px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ips {
+    position: absolute;
+    width: 246px;
+    height: 40px;
+    left: 72px;
+    top: 459.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+   
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #time-ips {
+    position: absolute;
+    width: 98px;
+    height: 40px;
+    left: 352.05px;
+    top: 459.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+   
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #date-ips {
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 490.11px;
+    top: 459.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+   
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse6 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 40px;
+    top: 533.17px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ipa {
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    left: 72px;
+    top: 518.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #time-ipa {
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 351.55px;
+    top: 518.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #date-ipa {
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 490.11px;
+    top: 518.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse7 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 40px;
+    top: 592.17px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #bing {
+    position: absolute;
+    width: 146px;
+    height: 40px;
+    left: 72px;
+    top: 577.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #time-bing {
+    position: absolute;
+    width: 97px;
+    height: 40px;
+    left: 352.55px;
+    top: 577.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #date-bing {
+    position: absolute;
+    width: 197px;
+    height: 40px;
+    left: 490.11px;
+    top: 577.17px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #072A6E;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-jadwal-tes-online {
+    position: absolute;
+    width: 245px;
+    height: 53px;
+    left: 40px;
+    top: 275px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 53px;
+
+    color: #222222;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #status-tes {
+    position: absolute;
+    width: 656px;
+    height: 40px;
+    left: 40px;
+    top: 650px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #072A6F;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .tahap-kedua {
+    position: absolute;
+    width: 736px;
+    height: 536px;
+    left: 976px;
+    top: 220px;
+
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-tahap-kedua {
+    position: absolute;
+    width: 204px;
+    height: 60px;
+    left: 40px;
+    top: 24px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    
+    color: #222222;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text {
+    position: absolute;
+    width: 656px;
+    height: 80px;
+    left: 40px;
+    top: 108px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #072A6F;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .ujian-akademik {
+    position: absolute;
+    width: 664px;
+    height: 46px;
+    left: 40px;
+    top: 212px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #ellipse8 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 15px;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi #text-ujian-akademik {
+    position: absolute;
+    width: 167px;
+    height: 40px;
+    left: 32px;
+    top: 3px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    
+    color: #222222;
+}
+
+.acc-dashboard-tes-online-tahap-awal-terisi .mulai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 48px;
+
+    position: absolute;
+    width: 140px;
+    height: 46px;
+    right: 0px;
+    bottom: 0px;
+
+    background: #FFE600;
+    border-color: #FFE600;
+    border-radius: 8px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #072A6F;
+}

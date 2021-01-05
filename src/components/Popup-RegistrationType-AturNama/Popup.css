@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.style {
+font-family : Mukta;
+}
+
+.popup-atur-nama .head{
+    color: #072A6F;
+    position: absolute;
+    margin-left: 49px;
+    margin-top: 16px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.popup-atur-nama .circleFill{
+    background-color: #072A6F;
+    position: absolute;
+    border-radius: 50%;
+    display: "inline-block";
+    width: 48px;
+    height: 48px;
+    margin-left: 49px;
+    margin-top: 120px;
+}
+
+.popup-atur-nama .circleEmpty1{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 51px;
+    margin-top: 220px;
+    border: 3px solid #072A6F;
+}
+
+.popup-atur-nama .circleEmpty2{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 51px;
+    margin-top: 320px;
+    border: 3px solid #072A6F;
+}
+
+.popup-atur-nama .line1{
+    height: 60px;
+    border-left: 3px solid #072A6F;
+    position: absolute;
+    margin-left: 72px;
+    margin-top: 162px;
+}
+
+.popup-atur-nama .line2{
+    height: 60px;
+    border-left: 3px solid #072A6F;
+    position: absolute;
+    margin-left: 72px;
+    margin-top: 263px;
+}
+
+.popup-atur-nama .text1{
+    font-family: Mukta;
+    position: absolute;
+    margin-top: -3px;
+    margin-left: 15px;
+    color: #FFE500;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.popup-atur-nama .text2{
+    font-family: Mukta;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 10px;
+    color: #072A6F;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.popup-atur-nama .text3{
+    font-family: Mukta;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: 11px;
+    color: #072A6F;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.popup-atur-nama .aturNama{
+    position: absolute;
+    left: 136px;
+    top: 124px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.popup-atur-nama .aturKontak{
+    position: absolute;
+    left: 136px;
+    top: 224px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.popup-atur-nama .buatPassword{
+    position: absolute;
+    left: 136px;
+    top: 324px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.popup-atur-nama .label1{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 120px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.popup-atur-nama .label2{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 246px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.popup-atur-nama .input1{
+    position: absolute;
+    height: 54px;
+    width: 540px;
+    padding-left: 20px;
+    margin-top: 168px;
+    margin-left: 0px;
+
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Mukta';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.popup-atur-nama .input2{
+    position: absolute;
+    height: 54px;
+    width: 540px;
+    padding-left: 20px;
+    margin-top: 294px;
+    margin-left: 0px;
+
+    background: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Mukta';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.popup-atur-nama .selanjutnya{
+    position: absolute;
+    top: 420px;
+    right: -40px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 258px;
+
+    color: #24326B;
+    font-family: 'Mukta';
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+    background-color:#FFE500;
+}
+
+.popup-atur-nama .sebelumnya{
+    position: absolute;
+    top: 420px;
+    right: 239px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 258px;
+
+    color: #24326B;
+    font-family: 'Mukta';
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+    background-color:#FFE500;
+}
+
+.popup-atur-nama .sebelumnya:hover{
+    background-color: #072A6F;
+    color: #FFE500;
+}
+
+.popup-atur-nama .selanjutnya:hover{
+    background-color: #072A6F;
+    color: #FFE500;
+}
+
+.berhasil .notif{
+    position: absolute;
+    margin-left: 15px;
+
+    font-size: 32pt;
+    font-family: 'Mukta';
+    font-weight: bold;
+}
+
+.berhasil .exit{
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 90px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 158px;
+
+    color: #24326B;
+    font-family: 'Mukta';
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+    background-color:#FFE500;
+}
+
+.berhasil .exit:hover{
+    background-color: #072A6F;
+    color: #FFE500;
+}
+
+.popup-atur-nama .warn{
+    position: absolute;
+    color: red;
+    font-family: 'Mukta';
+    font-weight: bold;
+    margin-top: 350px;
+}

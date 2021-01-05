@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.tes-online-soal-pg .main-body {
+    max-width: 1980px;
+    max-height: 1080px;
+    margin: auto;
+}
+
+.tes-online-soal-pg {
+    background-color: #F5F6FA;
+    position:fixed;
+    overflow-y:auto;
+    overflow-x:hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tes-online-soal-pg .header {
+    height: 103px;
+    width: 639px;
+    margin-left: 1073px;
+    margin-top: 56px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.tes-online-soal-pg .header .jam {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height */
+    padding-left: 82.87px;
+    padding-top: 31.5px;    
+
+    /* Black */
+    color: #222222;
+}
+
+.tes-online-soal-pg .header .waktu {
+    font-family: Mukta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #072A6E;
+    float: right;
+    padding-right: 82.87px;
+    margin-top: -5px;
+}
+
+.tes-online-soal-pg .content {
+    width: 1504px;
+    height: 697px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.tes-online-soal-pg .content .halaman {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 36px;
+    padding-left: 70px;
+    width: auto;
+    float: left;
+    position: absolute;
+}
+
+.tes-online-soal-pg .content .timer {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0em;
+    padding-top: 12px;
+    
+}
+
+.tes-online-soal-pg .content .timer-green {
+    content: url("../../assets/images/access_alarms_24px_rounded.svg");
+    width: 36px;
+    margin: auto;
+    left: 1000px;
+    top: 215px;
+    position: absolute;
+}
+
+.tes-online-soal-pg .content .timer-yellow {
+    content: url("../../assets/images/access_alarms_24pxkuning.png");
+    width: 36px;
+    margin: auto;
+    left: 1000px;
+    top: 215px;
+    position: absolute;
+}
+
+.tes-online-soal-pg .content .timer-red {
+    content: url("../../assets/images/access_alarms_24px.png");
+    width: 36px;
+    margin: auto;
+    left: 1000px;
+    top: 215px;
+    position: absolute;
+}
+
+.tes-online-soal-pg .content .progress {
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 8px;
+}
+
+.tes-online-soal-pg .content .soal-pg {
+    width: 1248px;
+    height: 168px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 49px;
+}
+
+.tes-online-soal-pg .content .soal-pg p {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tes-online-soal-pg .content .jawaban-pg {
+    margin-left: 40px;
+    margin-top: 84px;
+}
+
+.tes-online-soal-pg .content .jawab {
+    width: 330px;
+    height: 248px;
+    background-color: #072A6E;
+    margin-right: 34px;
+    float: left;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.tes-online-soal-pg .content .jawab:active {
+    animation: alternate-reverse;
+    animation-timing-function: ease-in;
+    animation-duration: 300ms;
+    background-color: aqua;
+}
+
+.tes-online-soal-pg .content .huruf {
+    font-family: Mukta;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    padding-left: 24px;
+    margin-top: -50px;
+}
+
+.tes-online-soal-pg .content .answer {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color:white;
+    position: relative;
+}
+
+.tes-online-soal-pg .footer {
+    float: right;
+    height: 46px;
+    width: 60px;
+    margin-right: 241px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #A8E723;
+    text-align: center;
+    font-size: 33px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}

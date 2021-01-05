@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.style {
+font-family : Mukta;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos {
+    background: #F5F6FA;
+    height: 100vh;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: -70px;
+    margin-top: 30px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .halo {
+    margin-top: 35px;
+    margin-left: 30px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    width: 183px;
+    color: #072A6F;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .bantuan {
+    color: #072A6F;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .logout {
+    margin-left: 790px;
+    margin-top: -46px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #EB5757;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .text-jalur-prestasi {
+    font-family: Mukta; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 36px; 
+    line-height: 80px;
+    color: #072A6F;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .ganti-jalur {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #072A6F;
+    margin-left: 400px;
+    margin-top: 35px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .tahap-awal {
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    margin-left: 35px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .text-tahap-awal {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 60px;
+    color: #222222;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .status {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #EB5757;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .tahap-kedua {
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    margin-left: 570px;
+    margin-top: -400px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .data-diri {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #072A6F;
+    margin-top: -15px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .data-akademik {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #072A6F;
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .transkrip-nilai {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #072A6F;
+    margin-left: -10px;
+    margin-top: -15px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .button-daftar-tes {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #072A6F;
+    color: #FFE600;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 180px;
+    width: 230px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .text-tahap-kedua {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 60px;
+    color: #222222;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.acc-dashboard-prestasi-hasil-tidak-lolos .text {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #072A6F;
+    width: 400px;
+    margin-left: 15px;
+}

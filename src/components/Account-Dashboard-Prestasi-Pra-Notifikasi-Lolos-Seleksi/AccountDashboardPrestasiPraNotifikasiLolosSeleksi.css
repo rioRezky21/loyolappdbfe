@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.primary {
+    background: #F5F6FA;
+    margin: auto;
+    height: 100vh;
+}
+
+.container-restasi-pra-notif-lolos {
+    margin: auto;
+    max-width: 1980px;
+}
+
+.style {
+    font-family : Mukta;
+}
+
+.topbar {
+    /* Topbar */
+    position: absolute; width: 1640px; height: 69px; left: 72px; top: 56px;
+}
+
+#halo {
+    /* Halo, Aaron */
+    position: absolute; width: 183px; height: 60px; left: 136px; top: calc(50% - 60px/2 + 0.5px);
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 36px; line-height: 60px;
+    /* identical to box height */
+    /* Primary */ color: #072A6F;
+}
+
+#bantuan {
+    /* Bantuan */
+    position: absolute; width: 88px; height: 40px; right: 122px; top: calc(50% - 40px/2 + 0.5px);
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    text-align: right;
+    color: #072A6F;
+}
+
+#logout {
+    /* Logout */
+    position: absolute; width: 74px; height: 40px; right: 0px; top: calc(50% - 40px/2 + 0.5px);
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    text-align: right;
+    color: #EB5757;
+}
+
+.text-jalur-prestasi {
+    /* Jalur Prestasi */
+    position: absolute; width: 276px; height: 80px; left: 212px; top: 165px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 48px; line-height: 80px;
+    /* identical to box height */
+    color: #072A6F;
+}
+
+#text-notifikasi {
+    position: absolute; width: 864px; height: 180px; left: 208px; top: 285px;
+    font-family: Mukta; font-style: normal; font-weight: 500; font-size: 36px; line-height: 60px;
+    color: #000000;
+}

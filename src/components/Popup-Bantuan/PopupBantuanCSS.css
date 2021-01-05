@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+div.popupButtonRectangleLeft{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 80px;
+    top: 141px;
+    padding: 24px;
+    border-radius: 10px;
+    background: #000000;
+}
+div.popupButtonRectangleRight{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 500px;
+    top: 140px;
+    padding: 24px;
+    border-radius: 10px;
+    background-image:  url("../../assets/images/atm.png");
+}
+circle.popupButtonLeftAndRightCircle{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 23px;
+    top: 24px;
+    background: #072A6E;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 40px;
+}
+div.popupButtonLogo{
+    position: relative;
+    width: 30px; 
+    height: 40px; 
+    left: 7px;
+    top: 8px;
+    background-image: url("../../assets/images/logo-loyola-new2.png");
+    background-repeat: no-repeat;
+}
+div.popupButtonFirstBlueBoxLeft{
+    position: absolute;
+    width: 173px;
+    height: 10px;
+    left: 15px;
+    top: 80px;
+    padding: 14px;
+    background: #072A6F;
+}
+div.popupButtonSecondBlueBoxLeft{
+    position: absolute;
+    width: 188px;
+    height: 10px;
+    left: 15px;
+    top: 108px;
+    padding: 14px;
+    background: #072A6F;
+}
+div.popupButtonThirdBlueBoxLeft{
+    position: absolute;
+    width: 108px;
+    height: 10px;
+    left: 15px;
+    top: 136px;
+    padding: 14px;
+    background: #072A6F;
+}
+div.popupButtonFirstBlueBoxRight{
+    position: absolute;
+    width: 178px;
+    height: 10px;
+    left: 15px;
+    top: 80px;
+    padding: 14px;
+    background: #072A6F;
+}
+div.popupButtonSecondBlueBoxRight{
+    position: absolute;
+    width: 188px;
+    height: 10px;
+    left: 15px;
+    top: 108px;
+    padding: 14px;
+    background: #072A6F;
+}
+div.popupButtonThirdBlueBoxRight{
+    position: absolute;
+    width: 252px;
+    height: 10px;
+    left: 15px;
+    top: 136px;
+    padding: 14px;
+    background: #072A6F;
+}
+div.popupButtonFourthBlueBoxRight{
+    position: absolute;
+    width: 108px;
+    height: 10px;
+    left: 15px;
+    top: 164px;
+    padding: 14px;
+    background: #072A6F;
+}
+text.popupButtonLeftHeaderText{
+    position: absolute;
+    width: 294px;
+    height: 21px;
+    left: -150px;
+    top: 30px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+text.popupButtonFirstBlueBoxText{
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 5px;
+    top: 0px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+}
+text.popupButtonSecondBlueBoxText{
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 5px;
+    top: 0px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+}
+text.popupButtonThirdBlueBoxText{
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 5px;
+    top: 0px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+}
+text.popupButtonRightHeaderText{
+    position: absolute;
+    width: 294px;
+    height: 21px;
+    left: 70px;
+    top: 30px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+text.popupButtonRightText1{
+    position: absolute;
+    width: 182px;
+    height: 30px;
+    left: 5px;
+    top: -2px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+   
+}
+text.popupButtonRightText2{
+    position: absolute;
+    width: 185px;
+    height: 30px;
+    left: 5px;
+    top: -2px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+    
+}
+text.popupButtonRightText3{
+    position: absolute;
+    width: 242px;
+    height: 30px;
+    left: 5px;
+    top: -2px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+    
+}
+text.popupButtonRightText4{
+    position: absolute;
+    width: 185px;
+    height: 30px;
+    left: 5px;
+    top: -2px;
+    font-family: Asul;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFE600;
+    
+}
+div.popupButtonRectangleLeftEllipse1{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    left: 150px;
+    top: 30px;
+    background: #ffffff;
+}
+div.popupButtonRectangleLeftEllipse2{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    left: 150px;
+    top: 31px;
+    background: #FFFFFF;
+}
+div.popupButtonRectangleLeftEllipse3{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    left: 150px;
+    top: 32px;
+    background: #FFFFFF;
+}
+div.popupButtonRectangleRightEllipse1{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    left: 350px;
+    top: -35px;
+    background: #ffffff;
+}
+div.popupButtonRectangleRightEllipse2{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    left: 350px;
+    top: -33px;
+    background: #FFFFFF;
+}
+div.popupButtonRectangleRightEllipse3{
+    position: relative;
+    width: 4px;
+    height: 4px;
+    left: 350px;
+    top: -32px;
+    background: #FFFFFF;
+}
+div.popupButtonRectangleLeftImage{
+    position: absolute;
+    width: 180px;
+    height: 230px;
+    left: 220px;
+    top: 0px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #000000 0%, rgba(7, 42, 110, 0) 45.92%), url('../../assets/images/juggernaut.png');
+}
+.PopupBantuanYoutubeButtonLeft { 
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50% / 20%;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 50px;
+    margin: 35px auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0.1em; 
+    width: 70px;
+    
+  }
+  .PopupBantuanYoutubeButtonLeft:hover {
+    cursor: pointer;
+    background-image: url('../../assets/images/yutup.png');
+
+  }
+  .PopupBantuanYoutubeButtonLeft::after {
+    border-style: solid;
+    border-width: 0.8em 0 1em 21px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.1);
+    content: ' ';
+    font-size: 0.75em;
+    height: 0;
+    margin: -10px 0 0 -0.75em;
+    top: 50%;
+    position: absolute;
+    width: 0;
+  }
+  
+  .PopupBantuanYoutubeButtonRight { 
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50% / 20%;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 3em;
+    margin: 25px auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0.1em; 
+    width: 70px;
+  }
+  .PopupBantuanYoutubeButtonRight:hover {
+    cursor: pointer;
+    background-image: url('../../assets/images/yutup.png');
+  }
+  .PopupBantuanYoutubeButtonRight::after {
+    border-style: solid;
+    border-width: 0.7em 0 1em 21px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.1);
+    content: ' ';
+    font-size: 0.75em;
+    height: 0;
+    margin: -12px 0 0 -0.75em;
+    top: 50%;
+    position: absolute;
+    width: 0;
+  }
+  .popupButtonTutup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 56px;
+    position: absolute;
+    width: 165px;
+    height: 46px;
+    left: 735px;
+    bottom: 25px;
+    background: #FFE600;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    border: none
+  }
+  .popupButtonTutupText{
+    position: static;
+    width: 0px;
+    height: 30px;
+    left: 0px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #072A6F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .popupBantuanButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 50px;
+    position: absolute;
+    width: 165px;
+    height: 46px;
+    left: 5px;
+    bottom: 600px;
+    background: #FFE600;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+  }
+  .popupBantuanButtonText{
+    position: static;
+    width: 0px;
+    height: 30px;
+    left: 0px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #072A6F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  .popupBantuanHeader{
+    position: absolute;
+    width: 132px;
+    height: 60px;
+    left: 80px;
+    top: 50px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #072A6F;
+  }
+ 

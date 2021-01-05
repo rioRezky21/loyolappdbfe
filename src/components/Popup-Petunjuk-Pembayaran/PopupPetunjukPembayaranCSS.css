@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.popup-pembayaran {
+    width: 638px !important;
+    height: 244px !important;
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+}
+
+.badan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.border-pembayaran {
+    border-radius: 16px !important;
+}
+
+.header-pembayaran {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.content-pembayaran {
+    font-family: Mukta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #072A6F;
+    ;
+}
+
+.content-pembayaran-bold {
+    font-family: Mukta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.tes-online-soal-bergambar-2 .main-body {
+    max-width: 1980px;
+    max-height: 1080px;
+    margin: auto;
+}
+
+.tes-online-soal-bergambar-2 {
+    background-color: #F5F6FA;
+    position:fixed;
+    overflow-y:auto;
+    overflow-x:auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.tes-online-soal-bergambar-2 .header {
+    height: 103px;
+    width: 639px;
+    margin-left: 1073px;
+    margin-top: 56px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.tes-online-soal-bergambar-2 .header .jam {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height */
+    padding-left: 82.87px;
+    padding-top: 31.5px;    
+
+    /* Black */
+    color: #222222;
+}
+
+.tes-online-soal-bergambar-2 .header .waktu {
+    font-family: Mukta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #072A6E;
+    float: right;
+    padding-right: 82.87px;
+    margin-top: -5px;
+}
+
+.tes-online-soal-bergambar-2 .content {
+    width: 1504px;
+    height: 697px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.tes-online-soal-bergambar-2 .content .halaman {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 36px;
+    padding-left: 70px;
+    width: auto;
+    float: left;
+    position: absolute;
+}
+
+.tes-online-soal-bergambar-2 .content .timer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0em;
+    padding-top: 12px;
+}
+
+.tes-online-soal-bergambar-2 .content .timer::after {
+    content: url("../../assets/images/access_alarms_24pxkuning.png");
+    background-position:center bottom;
+    width: 36px;
+    padding-left: 5px;
+}
+
+.tes-online-soal-bergambar-2 .content .progress {
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 8px;
+}
+
+.tes-online-soal-bergambar-2 .content .soal-pg {
+    width: 1248px;
+    height: 168px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 49px;
+}
+
+.tes-online-soal-bergambar-2 .content .soal-pg p {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tes-online-soal-bergambar-2 .content .gambar {
+    width: 100%;
+    height: 100%;
+}
+
+.tes-online-soal-bergambar-2 .content .jawaban-pg {
+    margin-left: 40px;
+    margin-top: 83px;
+}
+
+.tes-online-soal-bergambar-2 .content .jawab {
+    width: 330px;
+    height: 248px;
+    margin-right: 34px;
+    float: left;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-decoration: none;
+    filter: brightness(85%);
+    position: relative;
+}
+
+.tes-online-soal-bergambar-2 .content .jawabs {
+    width: 330px;
+    height: 248px;
+    margin-right: 34px;
+    float: left;
+    border-radius: 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+.tes-online-soal-bergambar-2 .content .jawab:active {
+    animation-timing-function: ease-in;
+    animation-duration: 300ms;
+}
+
+.tes-online-soal-bergambar-2 .content .huruf {
+    font-family: Mukta;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    padding-left: 24px;
+    position: absolute;
+}
+
+.tes-online-soal-bergambar-2 .content .zoom {
+    position: absolute;
+    border-radius: 5px;
+    max-width: 30px;
+    max-height: 30px;
+    top: 210px;
+    left: 290px
+}
+
+.tes-online-soal-bergambar-2 .footer {
+    float: right;
+    height: 46px;
+    width: 60px;
+    margin-right: 241px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #A8E723;
+    text-align: center;
+    font-size: 33px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}

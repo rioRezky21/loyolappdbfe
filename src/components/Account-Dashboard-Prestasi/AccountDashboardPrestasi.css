@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.account-dashboard-prestasi {
+    background: #F5F6FA;
+    height: 100vh;
+}
+
+.account-dashboard-prestasi .custom-container{
+    max-width: 1366px;
+    margin: auto;
+}
+
+/* NAVBAR */
+
+.account-dashboard-prestasi .logo-loyola {
+    width: 64px;
+    height: 64px;
+    margin-left: 25%;
+}
+
+.account-dashboard-prestasi .navbar-greeting {
+    color: #072A6F;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 40px;
+}
+
+.account-dashboard-prestasi .bantuan-button {
+    color: #072A6F;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.account-dashboard-prestasi .logout-button {
+    color: #EB5757;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 52px;
+}
+
+/* BODY */
+
+.account-dashboard-prestasi .main-body{
+    margin-left: 9%;
+}
+
+.account-dashboard-prestasi h1 {
+    color: #072A6F;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    margin-left: 135px;
+}
+
+.account-dashboard-prestasi h2 {
+    color: black;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.account-dashboard-prestasi .card1 {
+    margin-top: 15px;
+    border-radius: 16px;
+    height: 435px;
+    margin-left: 37px;
+    padding: 5px;
+    border-style: none;
+}
+
+.account-dashboard-prestasi .card2 {
+    margin-top: 15px;
+    border-radius: 16px;
+    height: 435px;
+    padding: 5px;
+    border-style: none;
+}
+
+.account-dashboard-prestasi a {
+    color: #072A6F;
+}
+
+.account-dashboard-prestasi .link {
+    text-align: right;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+.account-dashboard-prestasi .ganti-jalur {
+    margin-left: 52px;
+}
+
+.account-dashboard-prestasi table {
+    /* border-collapse: separate; */
+    width: 100%;
+}
+
+.account-dashboard-prestasi .left-content {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.account-dashboard-prestasi .no-style-bullet {
+    margin-bottom: 5%;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.account-dashboard-prestasi .lihat-foto {
+    color: #828282;
+    text-decoration-line: underline;
+}
+
+.account-dashboard-prestasi .status {
+    color: #EB5757;
+}
+
+.account-dashboard-prestasi .custom-bullet {
+    border-radius: 50%;
+    background-color: #072A6F;
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    margin-right: 10px;
+}
+
+.account-dashboard-prestasi .row-height {
+    height: 55px;
+}
+
+.account-dashboard-prestasi .check {
+    width: 16px;
+}
+
+.account-dashboard-prestasi .button {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    border-style: none;
+    margin-top: 8%;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+
+.account-dashboard-prestasi .warning {
+    background-color: #FFE600;
+    color: #072A6F;
+}
+
+.account-dashboard-prestasi .disabled {
+    background-color: #BDBDBD;
+    color: #4F4F4F;
+    margin-top: 20px;
+}
+
+.account-dashboard-prestasi .button-secondary {
+    border-radius: 8px;
+    border-style: none;
+    color: #4F4F4F;
+    background-color: #BDBDBD;
+    margin-left: 218px;
+    width: 264px;
+    height: 40px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.account-dashboard-prestasi p {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #072A6F;
+}

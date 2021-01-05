@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap');
+
+h1.kepala-content-akademik {
+    font-family: 'Mukta';
+    color: #072A6F;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+div.content-data-akademik-wrapper {
+    display: flex;
+}
+
+p.nama-data-akademik {
+    font-family: 'Mukta';
+    color: #072A6F;
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+p.isi-data-akademik {
+    font-family: 'Mukta';
+    font-weight: bold;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+div.data-akademik-content {
+    margin: auto;
+    align-items: center;
+}

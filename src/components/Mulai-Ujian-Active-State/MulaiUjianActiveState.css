@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.mulaiUjianActiveState {
+    max-width: 736px;    
+    height: 536px;
+    margin: auto;
+
+    background: #F5F6FA;
+
+}
+
+.mulaiUjianActiveState .header {
+    position: absolute;
+
+    width: 214px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 24px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+
+    color: #222222;
+}
+
+.mulaiUjianActiveState .catatanUjian1 .image {
+    position: absolute;
+
+    margin-left: 40px;
+    margin-top: 114px;
+    width: 16px;
+    height: 16px;
+}
+
+.mulaiUjianActiveState .catatanUjian1 .catatan {
+    position: absolute;
+
+    width: 468px;
+    height: 40px;
+    margin-left: 72px;
+    margin-top: 103px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #222222;
+}
+
+.mulaiUjianActiveState .catatanUjian2 .image {
+    position: absolute;
+
+    margin-left: 40px;
+    margin-top: 171px;
+    width: 16px;
+    height: 16px;
+}
+
+.mulaiUjianActiveState .catatanUjian2 .catatan {
+    position: absolute;
+
+    width: 547px;
+    height: 40px;
+    margin-left: 72px;
+    margin-top: 160px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #222222;
+}
+
+.mulaiUjianActiveState .catatanUjian3 .catatan {
+    position: absolute;
+
+    width: 205px;
+    height: 40px;
+    margin-left: 72px;
+    margin-top: 398px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #222222;
+}
+
+.mulaiUjianActiveState .catatanUjian4 .catatan {
+    position: absolute;
+
+    width: 388px;
+    height: 40px;
+    margin-left: 72px;
+    margin-top: 439px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #072A6F;
+}
+
+.mulaiUjianActiveState .catatanUjian4 .mulaiUjian {
+    position: absolute;
+
+    width: 185px;
+    height: 46px;
+    margin-left: 500px;
+    margin-top: 436px;
+
+    font-family: Mukta;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+
+    color: #072A6F;
+
+    background: #FFE600;
+    border-radius: 8px;
+}

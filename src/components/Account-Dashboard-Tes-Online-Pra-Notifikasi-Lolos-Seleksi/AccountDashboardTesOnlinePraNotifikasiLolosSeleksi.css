@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.TesOnlinePraNotifikasiLolosSeleksi {
+    background: #F5F6FA;
+    height: 100vh;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .containerPraNotifikasiLolosSeleksi {
+    max-width: 1920px;
+    height: 1080px;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .containerPraNotifikasiLolosSeleksi .topbarPraNotifikasiLolosSeleksi {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .containerPraNotifikasiLolosSeleksi .topbarPraNotifikasiLolosSeleksi .imagePraNotifikasiLolosSeleksi {
+    width: 72px;
+    height: 72px;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .containerPraNotifikasiLolosSeleksi .topbarPraNotifikasiLolosSeleksi .helloPraNotifikasiLolosSeleksi {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+
+    color: #072A6F;
+    
+    font-family: Mukta;
+    font-size: 36px;
+    font-weight: bold;
+
+    margin-left: 88px;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .containerPraNotifikasiLolosSeleksi .topbarPraNotifikasiLolosSeleksi .bantuanPraNotifikasiLolosSeleksi {
+    position: absolute;
+
+    width: 183px;
+    height: 60px;
+
+    color: #072A6F;
+    
+    font-family: Mukta;
+    font-size: 28px;
+    font-weight: bold;
+
+    margin: auto;
+
+    margin-top: 8px;
+    margin-left: 1200px;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .containerPraNotifikasiLolosSeleksi .topbarPraNotifikasiLolosSeleksi .logoutPraNotifikasiLolosSeleksi {
+    position: absolute;
+    width: 183px;
+    height: 60px;
+
+    color: #EB5757;
+    
+    font-family: Mukta;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-align: right;
+
+    margin-top: 8px;
+    margin-left: 1300px;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .headerPraNotifikasiLolosSeleksi .jalurTesOnlinePraNotifikasiLolosSeleksi {
+    position: absolute;
+    
+    width: 325px;
+    height: 80px;
+    margin-left: 205px;
+    margin-top: 140px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 80px;
+
+    color: #072A6F;
+}
+
+.TesOnlinePraNotifikasiLolosSeleksi .textPraNotifikasiLolosSeleksi .isiPraNotifikasiLolosSeleksi {
+    position: absolute;
+    width: 864px;
+    height: 180px;
+    margin-left: 205px;
+    margin-top: 260px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+
+    color: black; 
+}

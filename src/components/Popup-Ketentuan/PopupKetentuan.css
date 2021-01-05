@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.style {
+font-family : Mukta;
+}
+
+.popup-ketentuan {
+    position: absolute;
+    width: 630px; 
+    height: 375px;
+    
+    background: #FFFFFF;
+
+    border: 1px solid #F2F2F2; 
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+}
+
+.popup-ketentuan #ketentuan {
+    position: absolute;
+    width: 166px;
+    height: 60px;
+    left: 40px;
+    top: 32px;
+
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    
+    color: #072A6F;
+}
+
+.popup-ketentuan .frame18 { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 0px;
+
+    position: absolute; 
+    width: 528px; 
+    height: 204px; 
+    left: 40px; 
+    top: 110px;
+}
+
+.popup-ketentuan .ketentuan-f18-group1 {
+    position: static; 
+    width: 528px; 
+    height: 90px; 
+    left: 0px; 
+    top: 0px;
+    
+    flex: none; 
+    order: 0; 
+    flex-grow: 0; 
+    margin: 0px 12px;
+}
+
+.popup-ketentuan #ketentuan-1 {
+    position: absolute; 
+    width: 500px; 
+    height: 90px; 
+    left: 28px; 
+    top: 0px;
+
+    font-family: Mukta; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 30px;
+
+    color: #222222;
+}
+
+.popup-ketentuan #ellipse1 {
+    position: absolute; 
+    width: 12px; 
+    height: 12px; 
+    left: 0px; 
+    top: 8px;
+}
+
+.popup-ketentuan .ketentuan-f18-group2 {
+    position: static; 
+    width: 528px; 
+    height: 60px; 
+    left: 0px; 
+    top: 102px;
+    
+    flex: none; 
+    order: 1; 
+    flex-grow: 0; 
+    margin: 0px 12px;
+}
+
+.popup-ketentuan #ketentuan-2 {
+    position: absolute; 
+    width: 500px; 
+    height: 60px; 
+    left: 28px; 
+    top: 102px;
+
+    font-family: Mukta; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 30px;
+
+    color: #222222;
+}
+
+.popup-ketentuan #ellipse2 {
+    position: absolute; 
+    width: 12px; 
+    height: 12px; 
+    left: 0px; 
+    top: 110px;
+}
+
+.popup-ketentuan .ketentuan-f18-group3 {  
+    position: static; 
+    width: 528px; 
+    height: 30px; 
+    left: 0px; 
+    top: 174px;
+    
+    flex: none; 
+    order: 2; 
+    flex-grow: 0; 
+    margin: 0px 12px;
+}
+
+.popup-ketentuan #ketentuan-3 {
+    position: absolute; 
+    width: 500px; 
+    height: 30px; 
+    left: 28px; 
+    top: 174px;
+
+    font-family: Mukta; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 30px;
+
+    color: #222222;
+}
+
+.popup-ketentuan #ellipse3 {
+    position: absolute; 
+    width: 12px; 
+    height: 12px; 
+    left: 0px; 
+    top: 182px;
+}

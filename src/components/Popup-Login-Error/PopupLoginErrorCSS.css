@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+.popup-error {
+    width: 300px !important;
+    height: 140px !important;
+    border-radius: 16px !important;
+    box-sizing: border-box !important;
+    margin-left: 580px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.badan-error {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-error {
+    font-family: Mukta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.content-error {
+    font-family: Mukta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #072A6F;
+}

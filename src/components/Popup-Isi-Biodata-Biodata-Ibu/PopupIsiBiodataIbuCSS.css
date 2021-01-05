@@ -1,0 +1,495 @@
+.popupIsiBiodataIbuButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 19px;
+    position: absolute;
+    width: 165px;
+    height: 46px;
+    left: 5px;
+    bottom: 600px;
+    background: #FFE600;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.popupIsiBiodataIbuButtonText{
+    position: static;
+    width: 126px;
+    height: 30px;
+    left: 0px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #072A6F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.radioButtonDataDiri{
+    display: none;
+}
+.radioButtonDataIbu{
+    display: none;
+}
+.radioButtonDataAyah{
+    display: none;
+}
+
+.popupIsiBiodataIbuBiodataDiriButton{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 65px;
+    top: 64px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    background-color: transparent;
+    border: none;
+    color: #BDBDBD;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.popupIsiBiodataIbuBiodataDiriButton:after{
+    content:"Biodata Diri";
+    font-family: Mukta;       
+}
+.popupIsiBiodataIbuBiodataDiriButton:checked{
+    color: #072A6F;
+}
+.popupIsiBiodataIbuBiodataDiriButton:focus{
+    outline: none;
+    color: #072A6F;
+}
+.popupIsiBiodataIbuDataIbuButton{
+    position: absolute;
+    width: 145px;
+    height: 60px;
+    left: 65px;
+    top: 140px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    background-color: transparent;
+    border: none;
+    color: #BDBDBD;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.popupIsiBiodataIbuDataIbuButton:after{
+    content:"Data Ibu";
+    font-family: Mukta;
+            
+}
+.popupIsiBiodataIbuDataIbuButton:checked{
+    color: #072A6F;
+}
+.popupIsiBiodataIbuDataIbuButton:focus{
+    outline: none;
+    color: #072A6F;
+}
+.popupIsiBiodataIbuDataAyahButton{
+    position: absolute;
+    width: 161px;
+    height: 60px;
+    left: 65px;
+    top: 216px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #BDBDBD;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.popupIsiBiodataIbuDataAyahButton:after{
+    content:"Data Ayah";
+    font-family: Mukta;
+            
+}
+.popupIsiBiodataIbuDataAyahButton:checked{
+    color: #072A6F;
+}
+.popupIsiBiodataIbuDataAyahButton:focus{
+    outline: none;
+    color: #072A6F;
+}
+.popupIsiBiodataIbuCheckList1{
+    position: absolute;
+    left: 220px;
+    right: 200px;
+    top: 161px;
+    bottom: 0%;
+}
+.popupIsiBiodataIbuCheckList2{
+    position: absolute;
+    left: 245px;
+    right: 200px;
+    top: 235px;
+    bottom: 0%;
+}
+.popupIsiBiodataIbuNamaIbu{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 350px;
+    top: 60px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuNamaIbu::after{
+    content: "*";
+    color: red;
+}
+.popupIsiBiodataIbuInputNamaIbu{
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 350px;
+    top: 100px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+}
+
+.popupIsiBiodataIbuAlamatIbu{
+    position: absolute;
+    width: 251.33px;
+    height: 48px;
+    left: 350px;
+    top: 160px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuAlamatIbu::after{
+    content: '*';
+    color: red;
+}
+.popupIsiBiodataIbuInputAlamatIbu{
+    position: absolute;
+    height: 48px;
+    width: 820px;
+    left: 350px;
+    top: 200px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+
+}
+.popupIsiBiodataIbuAlamatIbuKecamatan{
+    position: absolute;
+    width: 251.33px;
+    height: 48px;
+    left: 350px;
+    top: 265px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuAlamatIbuKecamatan::after{
+    content: '*';
+    color: red;
+}
+.popupIsiBiodataIbuInputAlamatIbuKecamatan{
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 350px;
+    top: 305px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+
+}
+.popupIsiBiodataIbuNomorHP{
+    position: absolute;
+    width: 251.33px;
+    height: 48px;
+    left: 350px;
+    top: 370px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuNomorHP::after{
+    content: '*';
+    color: red
+}
+.popupIsiBiodataIbuInputNomorHP{
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 350px;
+    top: 410px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+
+}
+.popupIsiBiodataIbuAgama{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 770px;
+    top: 60px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuInputAgama{
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 770px;
+    top: 100px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+
+}
+.popupIsiBiodataIbuKotaKabupaten{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 770px;
+    top: 265px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuKotaKabupaten::after{
+    content: '*';
+    color: red
+}
+.popupIsiBiodataIbuInputKotaKabupaten{
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 770px;
+    top: 305px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+
+}
+.popupIsiBiodataIbuEmail{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 770px;
+    top: 370px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuInputEmail{
+    position: absolute;
+    height: 48px;
+    width: 400px;
+    left: 770px;
+    top: 410px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    text-indent: 15px;
+
+}
+.popupIsiBiodataIbuSimpanButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 56px;
+    position: absolute;
+    width: 175px;
+    height: 46px;
+    left: 72px;
+    bottom: 48px;
+    background: #FFE600;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    border: none;
+}
+.popupIsiBiodataIbuSimpanButtonText{
+    position: static;
+    width: 63px;
+    height: 30px;
+    left: 56px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #072A6F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.popupIsiBiodataIbuUploadFotoDiri{
+    position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 350px;
+    top: 475px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #222222;
+}
+.popupIsiBiodataIbuUploadFotoDiri::after{
+    content: "*";
+    color: red  ;
+}
+.popupIsiBiodataIbuUploadFoto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+    position: absolute;
+    width: 116px;
+    height: 39px;
+    right: 282px;
+    top: 515px;
+    left: 350px;
+    background: #072A6F;
+    border-radius: 8px;
+    border: none;
+}
+.popupIsiBiodataIbuUploadFoto::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.popupIsiBiodataIbuUploadFoto::after {
+    content: 'Upload';
+    position: static;
+    width: 52px;
+    height: 23px;
+    left: 32px;
+    top: 8px;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFE600;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -28px 5px;
+  }
+.popupIsiBiodataIbuUploadFoto:focus{
+    outline: none;
+}
+.whiteBoxHidder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+    position: absolute;
+    width: 600px;
+    height: 39px;
+    right: 282px;
+    top: 515px;
+    left: 467px;
+    background: white;
+    border: none;
+}
+.whiteBoxHidder2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+    position: absolute;
+    width: 600px;
+    height: 39px;
+    right: 282px;
+    top: 515px;
+    left: 350px;
+    background: white;
+    border: none;
+}

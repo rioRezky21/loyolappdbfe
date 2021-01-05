@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap');
+
+h1.kepala-content-transkrip {
+    font-family: 'Mukta';
+    color: #072A6F;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+img.transkrip-siswa {
+    width: 450px;
+}

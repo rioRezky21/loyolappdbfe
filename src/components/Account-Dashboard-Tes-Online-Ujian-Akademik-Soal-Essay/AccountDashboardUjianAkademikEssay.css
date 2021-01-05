@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&display=swap');
+
+.ujian-akademik-soal-essay {
+    background-color:#F5F6FA;
+    height: 100vh;
+    padding-top: 56px;
+}
+
+.ujian-akademik-soal-essay .container-soal-ujian-essay {
+    max-width: 1504px;
+    margin:auto;
+    padding: 0;
+}
+
+.ujian-akademik-soal-essay .box-jam-ujian {
+    font-family: Mukta;
+    background-color: white;
+    width: 639px;
+    height: 80px;
+    margin-left: 865px;
+    align-items: center;
+    border-radius: 16px;
+    padding-top: 12.5px;
+}
+
+.ujian-akademik-soal-essay .box-jam-ujian .waktu-ujian {
+    margin-left: 82.87px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 48.63px;
+}
+
+.ujian-akademik-soal-essay .box-jam-ujian .sisa-waktu {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: #072A6E;
+}
+
+.ujian-akademik-soal-essay .main-content-soal-essay {
+    margin-top: 22px;
+    max-width: 1504px;
+    height: 650px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.ujian-akademik-soal-essay .nomor-soal-essay {
+    display: flex;
+    align-items: center;
+    height: 98px;
+    /* background-color: lime; */
+}
+
+.ujian-akademik-soal-essay .nomor-ke {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #072A6E;
+    padding-right: 16.19px;
+    padding-left: 69.34px;
+    padding-top: 20px;
+}
+
+.ujian-akademik-soal-essay .dari-nomor {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #072A6E;
+    padding-top: 20px;
+    padding-left: 16.19px;
+}
+
+.ujian-akademik-soal-essay .sekat-nomor {
+    width: 0px;
+    height: 42.82px;
+    left: 113.53px;
+    top: 34.45px;
+    border: 2px solid #000000;
+}
+
+.ujian-akademik-soal-essay .sisa-detik {
+    /* display: flex; */
+    align-items: center;
+    margin-right: 740px;
+    margin-top: -10px;
+    /* background-color: yellow; */
+}
+
+.ujian-akademik-soal-essay .sisa-detik p {
+    margin-top: 18px;
+    margin-left: -43px;
+    position: absolute;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 86px;
+    color: #000000;
+}
+
+.ujian-akademik-soal-essay .garis-header-soal {
+    position: absolute;
+    width: 1260.99px;
+    height: 8px;
+    margin-left: 7.5px;
+    margin-top: 0.87px;
+    background: #A8E723;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.ujian-akademik-soal-essay .garis-header-soal-2 {
+    width: 1459.35px;
+    height: 8px;
+    margin: auto;
+    margin-top: 0.87px;
+    background: #EDEDED;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.ujian-akademik-soal-essay .isi-soal-essay {
+    width: 1248px;
+    height: 167.78px;
+    margin: auto;
+    margin-top: 48.99px;
+}
+
+.ujian-akademik-soal-essay .isi-soal-essay p {
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    color: #222222;
+}
+
+.ujian-akademik-soal-essay .container-soal-ujian-essay .main-content-soal-essay .kolom-jawaban-siswa {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 17px;
+}
+
+.ujian-akademik-soal-essay .form-jawaban-soal-essay {
+    width: 1437px;
+    height: 250px;
+    border-radius: 5px;
+    border: 2px solid #797979;
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    color: #797979;
+}
+
+.ujian-akademik-soal-essay .next-soal-button {
+    width: 60px;
+    height: 46px;
+    background-color: #A8E723;
+    margin-left: 1375px;
+    font-size: 50px;
+    border-radius: 5px;
+    margin-top: 60px;
+    border-color: #A8E723;
+    display: flex;
+    justify-content: center;
+}
+
+.ujian-akademik-soal-essay .next-soal-button img {
+    margin-top: 10px;
+}
+
+.ujian-akademik-soal-essay .button-next-essay {
+    color: #072A6E;
+    text-decoration: none;
+}
+
+.ujian-akademik-soal-essay .next-soal-button:hover {
+    background-color: #85b61b;
+}
+
+.ujian-akademik-soal-essay .progress {
+    margin-left: 22px;
+    margin-right: 22px;
+    height: 8px;
+}
+
+.ujian-akademik-soal-essay .green-alarm {
+    content: url("../../assets/images/access_alarms_24px_rounded.svg");
+    width: 36px;
+    margin: auto;
+    left: 1000px;
+    top: 191px;
+    position: absolute;
+}
+
+.ujian-akademik-soal-essay .yellow-alarm {
+    content: url("../../assets/images/access_alarms_24pxkuning.png");
+    width: 36px;
+    margin: auto;
+    left: 1000px;
+    top: 191px;
+    position: absolute;
+}
+
+.ujian-akademik-soal-essay .red-alarm {
+    content: url("../../assets/images/access_alarms_24px.png");
+    width: 36px;
+    margin: auto;
+    left: 1000px;
+    top: 191px;
+    position: absolute;
+}

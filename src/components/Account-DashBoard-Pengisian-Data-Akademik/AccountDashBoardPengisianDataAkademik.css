@@ -1,0 +1,1073 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&display=swap');
+
+.style {
+font-family : Mukta;
+}
+
+.primary {
+    background:#F5F6FA;
+    margin: auto;
+    height: 100vh;
+}
+
+.container-pengisian-data-akademik {
+    margin: auto;
+    max-width: 1980px;
+}
+
+#logo {
+    position: absolute; 
+    width: 72px; height: 72px; left: 0px; top: calc(50% - 72px/2 + 0.5px);
+}
+
+.Topbar {
+    /* Topbar */
+    position: absolute; width: 1640px; height: 69px; left: 72px; top: 56px;
+}
+
+#Halo {
+    /* Halo, Aaron */
+    position: absolute; /* width: 183px; */ height: 60px; left: 136px; top: calc(50% - 60px/2 + 0.5px);
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 36px; line-height: 60px;
+    color: #072A6F
+}
+
+#Bantuan {
+    /* Bantuan */
+    position: absolute; width: 88px; height: 40px; right: 122px; top: calc(50% - 40px/2 + 0.5px);
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */ text-align: right;
+    color: #072A6F; /* Primary */ 
+}
+
+#LogOut {
+    /* Logout */
+    position: absolute; width: 74px; height: 40px; right: 0px; top: calc(50% - 40px/2 + 0.5px);
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    text-align: right;
+    color: #EB5757; /* Red */ 
+}
+
+.back {
+    /* back (1) 1 */
+    position: absolute; width: 32px; height: 32px; left: 112px; top: 189px;
+}
+
+.back-vector {
+    /* Vector */    
+    position: absolute; left: 16.67%; right: 16.67%; top: 0%; bottom: 0%;
+}
+
+#DataAkademik {
+    /* Data Akademik (20%) */
+    position: absolute; /* width: 453px; */ height: 80px; left: 212px; top: 165px;
+    font-family: 'Mukta'; font-style: normal; font-weight: bold; font-size: 48px; /* line-height: 80px; */
+    /* identical to box height */
+    color: #072A6F
+}
+
+#Ketentuan {
+    /* KETENTUAN */
+    position: absolute; /* width: 94px; */ height: 30px; left: 1234px; top: 190px;
+    font-family: Mukta; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #072A6F;
+}
+
+#popup-ketentuan {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 490px;
+}
+
+.MataPelajaran{
+    /* Mata Pelajaran */
+    position: absolute; /* width: 131px; */ height: 33px; left: 248px; top: 281px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+}
+
+.Group22 {
+    /* Group 22 */
+    position: absolute; width: 300px; height: 72px; left: 569px; top: 261px;
+}
+
+#KelasVII {
+    /* Kelas VII */
+    position: absolute; /* width: 75px; */ height: 33px; left: 679px; top: 261px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #222222; /* Black */ 
+}
+
+#KKM-VII {
+    /* KKM */
+    position: absolute; width: 42px; height: 33px; left: 569px; top: 300px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #222222; /* Black */
+}
+
+#Smt-1-VII {
+    /* Smt 1 */
+    position: absolute; /* width: 49px; */ height: 33px; left: 693px; top: 300px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    text-align: center;
+    color: #222222; /* Black */
+}
+
+#Smt-2-VII {
+    /* Smt 2 */
+    position: absolute; /* width: 50px; */ height: 33px; left: 819px; top: 300px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    text-align: center;
+    color: #222222; /* Black */
+}
+
+#KelasVIII {
+    /* Kelas VIII */
+    position: absolute; /* width: 81px; */ height: 33px; left: 1105px; top: 261px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #222222; /* Black */
+}
+
+#KKM-VIII {
+    /* KKM */
+    position: absolute; width: 42px; height: 33px; left: 996px; top: 300px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #222222; /* Black */
+}
+
+#Smt-1-VIII {
+    /* Smt 1 */
+    position: absolute; /* width: 49px; */ height: 33px; left: 1120px; top: 300px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    text-align: center;
+    color: #222222; /* Black */
+}
+
+#Smt-2-VIII {
+    /* Smt 2 */
+    position: absolute; /* width: 50px; */ height: 33px; left: 1246px; top: 300px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    text-align: center;
+    color: #222222; /* Black */
+}
+
+#hr {
+    /* Vector 3 */
+    position: absolute; width: 1080px; height: 0px; left: 248px; top: 338px;
+    border: 2px solid #E0E0E0; /* Gray 5 */
+}
+
+.correct-agama {
+    /* Vector */
+    position: absolute; width: 24px; height: 24px; left: 215px; top: 8px;
+}
+
+.correct2 {
+    /* correct 2 */
+    position: absolute; width: 24px; height: 24px; left: 208px; top: 501px;
+}
+
+.Frame25 {
+    /* Frame 25 */
+    /* Auto Layout */
+    display: flex; flex-direction: column; align-items: flex-start; padding: 0px;
+    position: absolute; /* width: 197px; */ height: 616px; left: 248px; top: 365px;
+}
+
+.agama {
+    /* Pendidikan Agama */
+    position: static; width: 197px; height: 40px; left: 0px; top: 0px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 0; flex-grow: 0; flex-basis: 68px; /* margin: 0px 24px; */
+}
+
+.ppkn {
+    /* PPKn */
+    position: static; width: 56px; height: 40px; left: 0px; top: 64px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 1; flex-grow: 0; flex-basis: 60px; /* margin: 0px 24px; */
+}
+
+.correct-ppkn {
+    position: absolute; width: 24px; height: 24px; left: 73px; top: 75px;
+}
+
+.Group24 {
+    /* Group 24 */
+    position: static; width: 168px; height: 40px; left: 0px; top: 128px;
+    /* Inside Auto Layout */
+    flex: none; order: 2; flex-grow: 0; flex-basis: 63px; margin: 0px 24px;
+}
+
+.bindo {
+    /* B. Indonesia */
+    position: absolute; width: 128px; height: 40px; left: 0px; top: 128px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+}
+
+.correct-bindo {
+    /* Vector */
+    position: absolute; left: 65.1%; right: 14.72%; top: 22.08%; bottom: 74.03%;
+}
+
+.bing {
+    /* B. Inggris */
+    position: static; width: 99px; height: 40px; left: 0px; top: 192px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 3; flex-grow: 0; flex-basis: 65px; /* margin: 0px 24px; */
+}
+
+.correct-bing {
+    position: absolute; width: 24px; height: 24px; left: 115px; top: 198px;
+}
+
+.math {
+    /* Matematika */
+    position: static; width: 128px; height: 40px; left: 0px; top: 256px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 4; flex-grow: 0; flex-basis: 65px; /* margin: 0px 24px; */
+}
+
+.correct-math {
+    position: absolute; width: 24px; height: 24px; left: 145px; top: 263px;
+}
+
+.ipa {
+    /* IPA */
+    position: static; width: 34px; height: 40px; left: 0px; top: 320px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 5; flex-grow: 0; flex-basis: 60px; /* margin: 0px 24px; */
+}
+
+.correct-ipa {
+    position: absolute; width: 24px; height: 24px; left: 55px; top: 328px;
+}
+
+.ips {
+    /* IPS */
+    position: static; width: 33px; height: 40px; left: 0px; top: 384px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 6; flex-grow: 0; flex-basis: 65px; /* margin: 0px 24px; */
+}
+
+.correct-ips {
+    position: absolute; width: 24px; height: 24px; left: 55px; top: 388px;
+}
+
+.penjaskes {
+    /* Penjaskes */
+    position: static; width: 104px; height: 40px; left: 0px; top: 448px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */ 
+    /* Inside Auto Layout */
+    flex: none; order: 7; flex-grow: 0;flex-basis: 65px; /* margin: 0px 24px; */
+}
+
+.correct-penjas {
+    position: absolute; width: 24px; height: 24px; left: 120px; top: 453px;
+}
+
+.kesenian {
+    /* Kesenian */
+    position: static; width: 96px; height: 40px; left: 0px; top: 512px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */ 
+    /* Inside Auto Layout */
+    flex: none; order: 8; flex-grow: 0; flex-basis: 65px; /* margin: 0px 24px; */
+}
+
+.correct-seni {
+    position: absolute; width: 24px; height: 24px; left: 115px; top: 518px;
+}
+
+.bdaerah {
+    /* Bahasa Daerah */
+    position: static; width: 156px; height: 40px; left: 0px; top: 576px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 24px; line-height: 40px;
+    /* identical to box height */
+    color: #072A6F; /* Primary */
+    /* Inside Auto Layout */
+    flex: none; order: 9; flex-grow: 0; /* margin: 0px 24px; */
+}
+
+.correct-bdaerah {
+    position: absolute; width: 24px; height: 24px; left: 180px; top: 583px;
+}
+
+.Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 0px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Frame32 {
+    /* Frame 32 */
+    /* Auto Layout */
+    display: flex; flex-direction: column; align-items: center; padding: 0px;
+    position: absolute; width: 794px; height: 616px; left: 534px; top: 365px;
+}
+
+.Group14 {
+    /* Group 14 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 0px;
+    /* Inside Auto Layout */
+    flex: none; order: 0; flex-grow: 0; margin: 0px 24px;
+}
+
+.Frame31{
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 0px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.nilai {
+    /* 90 */
+    position: absolute; /* width: 23px; */ height: 33px; left: 45px; top: 3px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+}
+
+.Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 0px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 0px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 0px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 0px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group16 {
+    /* Group 16 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 128px;
+    /* Inside Auto Layout */
+    flex: none; order: 2; flex-grow: 0; margin: 0px 24px;
+}
+
+.nilai2 {
+    /* 82 */
+    position: absolute; width: 21px; height: 33px; left: 45px; top: 3px;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+}
+
+.G16Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 128px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G16Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 128px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G16Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 128px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G16Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 128px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G16Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 128px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G16Frame30{
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 128px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group15 {
+    /* Group 15 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 64px;
+    /* Inside Auto Layout */
+    flex: none; order: 1; flex-grow: 0; margin: 0px 24px;
+}
+
+.G15Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 64px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G15Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 64px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G15Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 64px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G15Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 64px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G15Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 64px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G15Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 64px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group17 {
+    /* Group 17 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 192px;
+    /* Inside Auto Layout */
+    flex: none; order: 3; flex-grow: 0; margin: 0px 24px;
+}
+
+.G17Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 192px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G17Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 192px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G17Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 192px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G17Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 192px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G17Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 192px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G17Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 192px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group18 {
+    /* Group 18 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 256px;
+}
+
+.G18Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 256px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G18Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 256px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G18Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 256px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G18Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 256px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G18Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 256px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G18Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 256px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group19 {
+    /* Group 19 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 320px;
+}
+
+.G19Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 320px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G19Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 320px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G19Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 320px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G19Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 320px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G19Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 320px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G19Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 320px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group20 {
+    /* Group 20 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 384px;
+}
+
+.G20Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%;  top: 384px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G20Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 384px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G20Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 384px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G20Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 384px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G20Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 384px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G20Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 384px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group21 {
+    /* Group 21 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 448px;
+}
+
+.G21Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 448px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G21Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 448px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G21Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 448px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G21Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 448px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G21Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 448px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G21Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 448px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group22 {
+    /* Group 22 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 512px;
+}
+
+.G22Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 512px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G22Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 512px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G22Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 512px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G22Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 512px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G22Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 512px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G22Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 512px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.Group23 {
+    /* Group 23 */
+    position: static; width: 794px; height: 40px; left: 0px; top: 576px;
+}
+
+.G23Frame26 {
+    /* Frame 26 */
+    position: absolute; height: 40px; left: 0%; right: 86.02%; top: 576px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G23Frame27 {
+    /* Frame 27 */
+    position: absolute; height: 40px; left: 15.99%; right: 70.03%; top: 576px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G23Frame28 {
+    /* Frame 28 */
+    position: absolute; height: 40px; left: 31.99%; right: 54.03%; top: 576px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G23Frame29 {
+    /* Frame 29 */
+    position: absolute; height: 40px; left: 54.03%; right: 31.99%; top: 576px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G23Frame30 {
+    /* Frame 30 */
+    position: absolute; height: 40px; left: 70.03%; right: 15.99%; top: 576px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.G23Frame31 {
+    /* Frame 31 */
+    position: absolute; height: 40px; left: 86.02%; right: 0%; top: 576px;
+    background: #FFFFFF; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #000000;
+    width: 112px;
+    outline: none;
+}
+
+.saveNilai {
+    position: absolute; height: 40px; left: 900px; top: 0px;
+    background: #FFE600; border-radius: 8px; border-style: none;
+    text-align: center;
+    font-family: Mukta; font-style: normal; font-weight: bold; font-size: 20px; line-height: 33px;
+    color: #072A6F;
+    width: 112px;
+    outline: none;
+}
+
+.primary ::placeholder {
+    color: #000000
+}
